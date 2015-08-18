@@ -1,0 +1,44 @@
+{
+  "name": "pngquant-bin-gfw",
+  "version": "0.0.1",
+  "description": "pngquant-bin for gfw",
+  "license": "MIT",
+  "repository": "anhulife/pngquant-bin-gfw",
+  "author": {
+    "name": "anhulife",
+    "email": "anhulife@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "pngquant": "cli.js"
+  },
+  "scripts": {
+    "test": "mocha --timeout 20000"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "vendor"
+  ],
+  "keywords": [
+    "compress",
+    "image",
+    "img",
+    "minify",
+    "optimize",
+    "png",
+    "gfw"
+  ],
+  "dependencies": {
+    "os-filter-obj": "^1.0.3"
+  },
+  "devDependencies": {
+    "bin-check": "^2.0.0",
+    "compare-size": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "mocha": "^2.2.4",
+    "rimraf": "^2.3.2"
+  }
+}
